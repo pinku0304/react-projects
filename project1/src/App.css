@@ -1,0 +1,39 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.container {
+  max-width: 1220px;
+  padding: 0px 15px;
+}
+.main-menu {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.pt-50 {
+  padding-top: 50px;
+}
+
+.main {
+  display: flex;
+  gap: 1rem;
+}
+
+.img-sec {
+  width: 35%;
+}
+
+.text-sec {
+  width: 65%;
+}
+
+.img-sec img {
+  /* width: 150px; */
+  height: 150px;
+  max-width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
